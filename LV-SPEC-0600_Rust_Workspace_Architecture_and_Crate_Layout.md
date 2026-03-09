@@ -35,28 +35,28 @@ Clear separation of planes
 
 # 2. Workspace Structure
 
-Top-level workspace:
+Directory workspace:
 
 lite-vision/
-Cargo.toml
-rust-toolchain.toml
-crates/
-lv-core/
-lv-truth/
-lv-intel/
-lv-network/
-lv-artifact/
-lv-storage/
-lv-rpack/
-lv-sdk/
-lv-validator/
-lv-operator/
-lv-router/
-lv-tools/
-tests/
-fuzz/
-scripts/
-docs/
+lite-vision/Cargo.toml
+lite-vision/rust-toolchain.toml
+lite-vision/crates/
+lite-vision/crates/lv-core/
+lite-vision/crates/lv-truth/
+lite-vision/crates/lv-intel/
+lite-vision/crates/lv-network/
+lite-vision/crates/lv-artifact/
+lite-vision/crates/lv-storage/
+lite-vision/crates/lv-rpack/
+lite-vision/crates/lv-sdk/
+lite-vision/crates/lv-validator/
+lite-vision/crates/lv-operator/
+lite-vision/crates/lv-router/
+lite-vision/crates/lv-tools/
+lite-vision/tests/
+lite-vision/fuzz/
+lite-vision/scripts/
+lite-vision/README.md
 
 All production code MUST live in `crates/`.
 
